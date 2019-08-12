@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+for i in `seq 1 10`; do
+	ip="$(hostname -I)"
+	if [ -n "$ip" ];then
+		break
+	else
+		ip="No IP Address"
+	fi
+	sleep 1
+done
+echo $ip > /etc/motd
+echo devices: >> /etc/motd
+ls /sys/bus/w1/devices >> /etc/motd

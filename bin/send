@@ -1,0 +1,13 @@
+#!/bin/bash
+for i in `seq 1 10`; do
+	sleep $i
+	ip=$(hostname -I)
+	if [ -n "$ip" ]; then
+		break
+	fi
+done
+
+echo IP is: $ip 
+echo "To: bluckau@luckau.us
+Subject: Raspberry Pi IP: $ip"|
+curl -s -n --ssl-reqd --url "smtps://smtp.gmail.com:465" -T - -u "email@gmail.com:password1" --mail-from "email@gmail.com" --mail-rcpt "user@example.com" 

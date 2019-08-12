@@ -1,0 +1,16 @@
+{
+	"GLOBAL": {
+		"NUM_OF_PROBES": "1",
+		"INTERVAL": "5",
+		"SWING": "1",
+		"FAN_COEFFICIENT": "1",
+		"CONCAT": "AVERAGE"
+	},
+	"PROBES": {
+		"1": {
+			"TYPE": "MAX31855",
+			"AFFECTS_FAN": "1",
+			"LED_ORDINAL": "1"
+		}
+	}
+}
