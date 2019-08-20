@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from configparser import *
 import os.path
 default_config_file = "../etc/config_defaults.ini"
