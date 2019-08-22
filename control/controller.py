@@ -8,7 +8,11 @@ import fc
 
 
 def main():
-    pass
+    #start simulator
+    start_simulator()
+
+    # start controller
+
 
 
 if __name__ == "__main__":
