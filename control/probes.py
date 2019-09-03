@@ -36,7 +36,11 @@ class Probes:
             with open(Config.get_sim_temp_file_name(), 'r') as myfile:
                 data = myfile.read().strip()
                 myfile.close()
-                return float(data)
+                try:
+                    return float(data)
+                except ValueError as e:
+                    print(e)
+                    return 0
 
         lines = self.read_temp_raw()
         while lines[0].strip()[-3:] != 'YES':

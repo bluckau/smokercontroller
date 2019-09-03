@@ -13,7 +13,7 @@ class GPIO_Control:
     def turn_on(self):
         print("FAN ON")
         if self.simulated:
-            self.write_fan('on")
+            self.write_fan("on")
         else:
             GPIO.output(self.fan0_pwr,GPIO.HIGH)
 
