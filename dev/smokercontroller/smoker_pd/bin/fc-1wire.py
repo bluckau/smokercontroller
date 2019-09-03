@@ -3,7 +3,7 @@ from fanspeed import *
 import os
 import glob
 import time
-import RPi.GPIO as GPIO
+import Stubs.RPi.GPIO as GPIO
 THRESHOLD = 80
 SWING = 5
 MIN=0
@@ -55,21 +55,21 @@ def read_temp():
 
 def turn_on():
     print("Turn On!")
-    GPIO.output(FAN,GPIO.HIGH)
-    GPIO.output(LED2,GPIO.HIGH)
+    GPIO.output(FAN, GPIO.HIGH)
+    GPIO.output(LED2, GPIO.HIGH)
 
 def turn_off():
     print("Turn Off!")
-    GPIO.output(FAN,GPIO.LOW)
-    GPIO.output(LED2,GPIO.LOW)
+    GPIO.output(FAN, GPIO.LOW)
+    GPIO.output(LED2, GPIO.LOW)
 
 def main():
     #Main execution block
     GPIO.setmode(GPIO.BCM)
     GPIO.setwarnings(False)
   
-    GPIO.setup(FAN,GPIO.OUT)
-    GPIO.setup(LED2,GPIO.OUT)
+    GPIO.setup(FAN, GPIO.OUT)
+    GPIO.setup(LED2, GPIO.OUT)
     probe_modules()
 
     while True:

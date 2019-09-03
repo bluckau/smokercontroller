@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d86d859-5610-45e0-8d77-fbf68322ebed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Stubs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stubs/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stubs/wiringpi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/20off.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/20off.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/20on.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/20on.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/calib_fan.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/calib_fan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/gpio_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/gpio_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/probes.py" beforeDir="false" afterPath="$PROJECT_DIR$/control/probes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/20off.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/20off.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/20on.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/20on.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fanspeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fanspeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc-1wire.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc-1wire.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc-spi.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc-spi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fanspeed.py" beforeDir="false" afterPath="$PROJECT_DIR$/fanspeed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc/fc.py" beforeDir="false" afterPath="$PROJECT_DIR$/fc/fc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc/fc_fan_only.py" beforeDir="false" afterPath="$PROJECT_DIR$/fc/fc_fan_only.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fc/fc_fan_pwdm.py" beforeDir="false" afterPath="$PROJECT_DIR$/fc/fc_fan_pwdm.py" afterDir="false" />
+    </list>
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="305" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fanspeed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Stubs/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gpio_control</find>
+      <find>Almost</find>
+      <find>Farenheit</find>
+      <find>fire</find>
+      <find>temperature</find>
+      <find>fan_speed</find>
+      <find>temp_file</find>
+      <find>open</find>
+      <find>simulated</find>
+      <find>print</find>
+      <find>read</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>pwm</replace>
+      <replace>pit_temp</replace>
+      <replace>cook_temp</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\bluckau\sc</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc-spi.py" />
+        <option value="$PROJECT_DIR$/control/configuration/pins.py" />
+        <option value="$PROJECT_DIR$/control/configuration/configs.py" />
+        <option value="$PROJECT_DIR$/unit_tests/unit_test.py" />
+        <option value="$PROJECT_DIR$/control/utils.py" />
+        <option value="$PROJECT_DIR$/control/simulator.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/wiringpi.py" />
+        <option value="$PROJECT_DIR$/control/jacob.py" />
+        <option value="$PROJECT_DIR$/fc/fc.py" />
+        <option value="$PROJECT_DIR$/etc/config_defaults.ini" />
+        <option value="$PROJECT_DIR$/configuration/configs.py" />
+        <option value="$PROJECT_DIR$/simulator/simulator.py" />
+        <option value="$PROJECT_DIR$/RPi/GPIO.py" />
+        <option value="$PROJECT_DIR$/control/controller.py" />
+        <option value="$PROJECT_DIR$/control/gpio_control.py" />
+        <option value="$PROJECT_DIR$/control/probes.py" />
+        <option value="$PROJECT_DIR$/fanspeed.py" />
+        <option value="$PROJECT_DIR$/Stubs/readme.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="191" />
+    <option name="y" value="102" />
+    <option name="width" value="1153" />
+    <option name="height" value="619" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="Stubs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/control" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bluckau\sc\Stubs" />
+      <recent name="C:\Users\bluckau\sc" />
+      <recent name="C:\Users\bluckau\sc\simulator" />
+      <recent name="C:\Users\bluckau\sc\control" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bluckau\sc\control" />
+      <recent name="C:\Users\bluckau\sc\gpio_control" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.simulator">
+    <configuration name="controller" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/controller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jacob" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/jacob.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simulator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simulator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simulator/simulator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for utils.testUtilities.test_conversions" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="sc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;utils.testUtilities.test_conversions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in utils.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="sc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/control/utils.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.simulator" />
+        <item itemvalue="Python.controller" />
+        <item itemvalue="Python.jacob" />
+        <item itemvalue="Python tests.pytest for utils.testUtilities.test_conversions" />
+        <item itemvalue="Python tests.pytest in utils.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d86d859-5610-45e0-8d77-fbf68322ebed" name="Default Changelist" comment="" />
+      <created>1565817954322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565817954322</updated>
+      <workItem from="1565817957401" duration="1093000" />
+      <workItem from="1565879890081" duration="4390000" />
+      <workItem from="1565889884890" duration="1705000" />
+      <workItem from="1566317392790" duration="248000" />
+      <workItem from="1566319138952" duration="2006000" />
+      <workItem from="1566503373777" duration="2428000" />
+      <workItem from="1566573991056" duration="211000" />
+      <workItem from="1566671735690" duration="1592000" />
+      <workItem from="1566947355601" duration="3336000" />
+      <workItem from="1566951278642" duration="5890000" />
+      <workItem from="1566965252171" duration="2009000" />
+      <workItem from="1567262807440" duration="18289000" />
+      <workItem from="1567551261858" duration="252000" />
+    </task>
+    <task id="LOCAL-00001" summary="Checking in additional work&#10;&#10;* Added configs capability&#10;* setup file for commands that need to be run on the pi&#10;* added initial unit test for configs">
+      <created>1565884261767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565884261767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Checking in changes&#10;&#10;* moved old fc_*.py files to a module called &quot;fc&quot;&#10;* Check in a new file &quot;controller.py&quot;&#10;* Added RPIO module to .gitignore (stub to allow build/execute of most of the rest of the code while on windows)">
+      <created>1566320532156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566320532156</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Checking in changes">
+      <created>1566505783027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566505783027</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Checking in latest work toward fleshing out the controller and the simulator.">
+      <created>1567313384846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567313384847</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Some minor fixes">
+      <created>1567551347381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567551347381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_utils_py - 2019.08.22 at 14h 14m 22s.xml">
+      <configuration name="pytest in utils.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 15m 11s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 19m 11s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 20m 21s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 20m 35s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 20m 41s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 22m 32s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 22m 52s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.22 at 14h 24m 20s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_utils_testUtilities_test_conversions - 2019.08.27 at 18h 28m 26s.xml">
+      <configuration name="pytest for utils.testUtilities.test_conversions" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43449000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4879121" visible="true" weight="0.19121622" />
+      <window_info id="Structure" order="1" sideWeight="0.51208794" side_tool="true" weight="0.23648648" />
+      <window_info id="Favorites" order="2" sideWeight="0.51208794" side_tool="true" weight="0.23648648" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22345133" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45987654" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.18716216" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32972974" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4879121" visible="true" weight="0.23648648" />
+      <window_info id="Structure" order="1" sideWeight="0.51208794" side_tool="true" weight="0.23648648" />
+      <window_info id="Favorites" order="2" sideWeight="0.51208794" side_tool="true" weight="0.23648648" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22685185" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2978395" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.18716216" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Checking in additional work&#10;&#10;* Added configs capability&#10;* setup file for commands that need to be run on the pi&#10;* added initial unit test for configs" />
+    <MESSAGE value="Checking in changes&#10;&#10;* moved old fc_*.py files to a module called &quot;fc&quot;&#10;* Check in a new file &quot;controller.py&quot;&#10;* Added RPIO module to .gitignore (stub to allow build/execute of most of the rest of the code while on windows)" />
+    <MESSAGE value="Checking in changes" />
+    <MESSAGE value="Checking in latest work toward fleshing out the controller and the simulator." />
+    <MESSAGE value="Some minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some minor fixes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sc$pytest_for_utils_testUtilities_test_conversions.coverage" NAME="pytest for utils.testUtilities.test_conversions Coverage Results" MODIFIED="1566952102928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/sc$pytest_for_unit_test_UnitTests_test_get_setting_from_ini.coverage" NAME="pytest for unit_test.UnitTests.test_get_setting_from_ini Coverage Results" MODIFIED="1565884077257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_tests" />
+    <SUITE FILE_PATH="coverage/sc$jacob.coverage" NAME="jacob Coverage Results" MODIFIED="1567305882532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/sc$pytest_in_unit_tests.coverage" NAME="pytest in unit_tests Coverage Results" MODIFIED="1565879926411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unit_tests" />
+    <SUITE FILE_PATH="coverage/sc$controller.coverage" NAME="controller Coverage Results" MODIFIED="1567350418057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/sc$pytest_in_utils_py.coverage" NAME="pytest in utils.py Coverage Results" MODIFIED="1566504861466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/sc$simulator.coverage" NAME="simulator Coverage Results" MODIFIED="1567350439551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simulator" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3402">
+          <caret line="169" column="17" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc-spi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/unit_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/jacob.py" />
+    <entry file="file://$PROJECT_DIR$/Stubs/wiringpi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fc/fc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="88" column="8" selection-start-line="88" selection-end-line="89" selection-end-column="10" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stubs/RPi/GPIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/config_defaults.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration/configs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="e#24#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fc/get_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/smokercontroller/smoker_pd/bin/fc-1wire.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" column="2" selection-start-line="32" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#34#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/gpio_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#28#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulator/simulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1837">
+          <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/probes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fanspeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stubs/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

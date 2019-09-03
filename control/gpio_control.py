@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import RPi.GPIO as GPIO
+import Stubs.RPi.GPIO as GPIO
 from configuration.configs import *
 
 class GPIO_Control:
@@ -15,14 +15,14 @@ class GPIO_Control:
         if self.simulated:
             self.write_fan("on")
         else:
-            GPIO.output(self.fan0_pwr,GPIO.HIGH)
+            GPIO.output(self.fan0_pwr, GPIO.HIGH)
 
     def turn_off(self):
         print("FAN OFF")
         if self.simulated:
             self.write_fan("off")
         else:
-            GPIO.output(self.fan0_pwr,GPIO.LOW)
+            GPIO.output(self.fan0_pwr, GPIO.LOW)
 
     def setup(self):
         #Main execution block

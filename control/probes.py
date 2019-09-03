@@ -3,7 +3,6 @@
 import os
 import glob
 import time
-import RPi.GPIO as GPIO
 from configuration.configs import *
 
 BASE_DIR = '/sys/bus/w1/devices/'

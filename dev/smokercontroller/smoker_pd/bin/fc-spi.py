@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-import os
-import glob
 import time
-import RPi.GPIO as GPIO
+import Stubs.RPi.GPIO as GPIO
 import Adafruit_MAX31855.MAX31855 as MAX31855
 import Adafruit_GPIO.SPI as SPI
 
@@ -21,9 +19,9 @@ INTERVAL = 5
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-GPIO.setup(20,GPIO.OUT) # power to fan and led indicator
-GPIO.setup(23,GPIO.OUT) # pwm fan control
-GPIO.setup(24,GPIO.IN)
+GPIO.setup(20, GPIO.OUT) # power to fan and led indicator
+GPIO.setup(23, GPIO.OUT) # pwm fan control
+GPIO.setup(24, GPIO.IN)
 
 #HARDWARE SPI
 SPI_PORT = 0
@@ -32,10 +30,10 @@ sensor = MAX31855.MAX31855(spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE, max_speed_hz=500
 
 def turn_on():
     print("Turn On!")
-    GPIO.output(20,GPIO.HIGH)
+    GPIO.output(20, GPIO.HIGH)
 
 def turn_off():
-    GPIO.output(20,GPIO.LOW)
+    GPIO.output(20, GPIO.LOW)
     print("Turn Off!")
 
 

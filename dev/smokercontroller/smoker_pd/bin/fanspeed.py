@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-import wiringpi as wiringpi  
-import time
+from Stubs import wiringpi as wiringpi
 
 wiringpi.pwmSetMode(0) # PWM_MODE_MS = 0
 wiringpi.wiringPiSetupGpio()  

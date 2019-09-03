@@ -3,7 +3,7 @@
 import os
 import glob
 import time
-import RPi.GPIO as GPIO
+import Stubs.RPi.GPIO as GPIO
 from fan_speed import *
 
 THRESHOLD = 80
@@ -48,16 +48,16 @@ def read_temp():
             return temp_f
 	
 def turn_on():
-    GPIO.output(FANPWR,GPIO.HIGH)
+    GPIO.output(FANPWR, GPIO.HIGH)
 
 def turn_off():
-    GPIO.output(FANPWR,GPIO.LOW)
+    GPIO.output(FANPWR, GPIO.LOW)
 
 def main():
     #Main execution block
     GPIO.setmode(GPIO.BCM)
     GPIO.setwarnings(False)
-    GPIO.setup(FANPWR,GPIO.OUT)
+    GPIO.setup(FANPWR, GPIO.OUT)
 
     probe_modules()
 

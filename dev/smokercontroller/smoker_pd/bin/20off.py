@@ -1,11 +1,5 @@
 #!/usr/bin/env python
-import os
-import glob
-import time
-import RPi.GPIO as GPIO
-import Adafruit_MAX31855.MAX31855 as MAX31855
-import Adafruit_GPIO.SPI as SPI
-
+import Stubs.RPi.GPIO as GPIO
 
 THRESHOLD = 80
 SWING = 1
@@ -16,8 +10,8 @@ INTERVAL = 5
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-GPIO.setup(20,GPIO.OUT)
+GPIO.setup(20, GPIO.OUT)
 print(GPIO.input(20))
 print("Turn Off!")
-GPIO.output(20,GPIO.LOW)
+GPIO.output(20, GPIO.LOW)
 print(GPIO.input(20))

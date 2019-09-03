@@ -1,8 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import RPi.GPIO as GPIO
-import time
+import Stubs.RPi.GPIO as GPIO
 import sys
 #import os
 
@@ -13,7 +12,7 @@ PWM_FREQ = 25
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(FAN_PIN, GPIO.OUT, initial=GPIO.LOW)
 
-fan=GPIO.PWM(FAN_PIN,PWM_FREQ)
+fan= GPIO.PWM(FAN_PIN, PWM_FREQ)
 fan.start(0);
 i = 0
 
